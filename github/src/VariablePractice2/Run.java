@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Run {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // 우리가 유동적으로 값을 넣어줄 수 있음 약간 input type? 부분
+        Scanner sc = new Scanner(System.in); // 우리가 유동적으로 값을 넣어줄 수 있음 약간 input type = text ? 느낌
 
         System.out.print("첫 번째 숫자를 입력하세요: ");
         int First = sc.nextInt();

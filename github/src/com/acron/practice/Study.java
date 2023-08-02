@@ -22,7 +22,7 @@ public class Study {
 			if (selectedBtnPrev == 99) {
 				System.out.println("축하합니다~");
 				break; // 99가 되면 탈출하고 끝내
-			} else if ((selectedBtnPrev < 1) || (selectedBtnPrev > 4)) {
+			} else if ((selectedBtnPrev < 1) || (selectedBtnPrev > 4)) { // || 논리연산자 or
 				System.out.println("잘못된 선택입니다. 다시!");
 				continue;
 			}
