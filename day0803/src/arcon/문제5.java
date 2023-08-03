@@ -16,7 +16,7 @@ public class 문제5 {
 
         // 검색한 문자가 몇 개 들어가 있는지 개수와 인덱스 출력
         int count = 0; // 개수?
-        for (int a = 0; a < text.length(); a++) { // 초깃값 0개부터 시작, 개수 < 글자 길이수 일때 반복문 실행, a 증가
+        for (int a = 0; a < text.length(); a++) { // 초깃값 0개부터 시작, 개수 < 글자 길이수 까지 실행 반복문 실행, a 증가
             if (text.charAt(a) == searchtext) {
                 count++;
                 System.out.println("'" + searchtext + "'는 " + (a + 1) + "번째 인덱스에 위치합니다.");
