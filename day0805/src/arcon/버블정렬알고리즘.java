@@ -1,19 +1,22 @@
 package arcon;
 
 public class 버블정렬알고리즘 {
-// ㅇㅇ
+	// 큰 수를 뒤로 보내는것 구현
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int [] scores = {60, 50, 95, 80, 70};
-		sor t (scores);
-		for (int i = 0;) i < scores.length ; i++ {
-			System.out.print(scores[i] + " ");
+		int[] a = {254,3,213,64,75,56,4,324,65,78,9,5,76,3410,8,342,76};
+		int b;
+		for(int i = 0 ; i < a.length ; i ++) {
+			for(int j = 0 ; j < a.length -i -1 ; j ++) {
+				if(a[j]>a[j+1]) {
+					b = a[j];
+					a[j] = a[j+1];
+					a[j+1] = b;
+				}
+			}
 		}
-
-	}
-	public static void sor(int [] arraus) {
-		for (int i = 0; i < arrays.length - i - 1; j++) {
-			if (arrays[j]) >
+		
+		for(int i = 0 ; i < a.length ; i ++) {
+			System.out.println(a[i]);
 		}
 	}
 }
